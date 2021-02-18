@@ -1,5 +1,5 @@
 // connect "guess" button to "random" function
-document.getElementById('result').addEventListener('click' ,comparison)
+document.getElementById('result').addEventListener('click',comparison)
 let userInput = 0
 
 function comparison () {
@@ -9,9 +9,9 @@ function comparison () {
 
   // check if userInput is less than 0
   if (userInput < 0) {
-    document.getElementById('answer').innerHTML = "Negative"
+    document.getElementById('answer').innerHTML = 'Negative'
   } else {
-    document.getElementById('answer').innerHTML = "Positive"
+    document.getElementById('answer').innerHTML = 'Positive'
   }
 
 }
